@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import { Routes,Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Navbar from './components/navbar/Navbar';
+import Navbar from './components/Navbar/Navbar.js';
 function App() {
   return (
     <div>
