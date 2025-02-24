@@ -1,0 +1,15 @@
+.word-list-h1{
+    color:#fff;
+    text-align: center;
+    font-family: "Archivo Black", serif;
+    font-size: 80px;
+    letter-spacing: 3px;
+}
+
+.word-list-h2{
+    color:#fff;
+    text-align: center;
+    font-family: "Archivo Black", serif;
+    font-size: 100px;
+    letter-spacing: 3px;
+}

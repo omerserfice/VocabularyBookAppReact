@@ -1,4 +1,14 @@
-.card-backround{
-    background-color: blue;
+.card-background{
+    /* background-color: #000; */
     font-family: "Archivo Black", serif;
+    cursor: pointer;
+    border: 1px solid #3D3BF3;
+    transition: background-color 0.3s ease;
+   
+}
+
+.card-h1{
+    color:#c3c3c3;
+    text-align: center;
+    font-size: 150px;
 }

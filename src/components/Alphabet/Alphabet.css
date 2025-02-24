@@ -1,5 +1,5 @@
 .title-background{
-   background-color: black;
+   background-color: #3D3BF3;
 }
 
 .h3-style{
@@ -7,6 +7,24 @@
     text-align: center;
     padding: 3%;
     font-family: "Archivo Black", serif;
+    font-size: 50px;
+    letter-spacing: -3px;
 
 }
 
+.alphabet-container {
+    display: flex;
+    flex-direction: column; 
+    overflow-y: auto;
+    max-height: 800px;
+    gap:10px;
+    padding: 10px;
+}
+.alphabet-container::-webkit-scrollbar {
+    width: 8px; 
+  }
+  
+  .alphabet-container::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 4px;
+  }

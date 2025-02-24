@@ -1,0 +1,28 @@
+.word-h1{
+    font-family: "Archivo Black", serif;
+    text-align: center;
+    color: #F96E2A;
+    padding: 10px;
+    letter-spacing: 17px;
+}
+
+.word-text{
+    background-color: black;
+    color: #F96E2A;
+    font-size: 60px;
+    border: none; /* Çerçeveyi kaldırır */
+    outline: none; /* Odaklanınca oluşan kenarlığı kaldırır */
+    font-family: "Archivo Black", serif;
+    border-radius: 19px;
+    border-bottom: 2px solid white; /* Sadece alt çizgi ekler */
+  background: transparent;
+}
+.word-text-button{
+    margin-left: 35px;
+    background-color: #EBEAFF;
+    color: green;
+    font-family: "Archivo Black", serif;
+    font-size: 100px;
+    border: none; /* Çerçeveyi kaldırır */
+    outline: none; /* Odaklanınca oluşan kenarlığı kaldırır */
+}
