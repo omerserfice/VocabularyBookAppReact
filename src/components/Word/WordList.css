@@ -13,3 +13,24 @@
     font-size: 100px;
     letter-spacing: 3px;
 }
+
+/* .list-group{
+    background-color: transparent;
+} */
+
+.list-group-item {
+    background-color: transparent !important;
+    color: brown !important;
+    font-family: "Archivo Black", serif;
+    font-size: 72px;
+}
+.mean{
+    font-family: "Manrope", serif;
+}
+
+.list-info{
+    text-align: center;
+    font-family: "Manrope", serif;
+    color: red;
+    font-size: 50px;
+}
