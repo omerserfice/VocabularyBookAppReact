@@ -43,14 +43,43 @@ table{
     border-spacing: 0; /* Hücreler arasındaki boşluğu kaldırır */
     border-radius: 10px; /* Köşeleri yuvarlatır */
     overflow: hidden; /* Köşelerin düzgün görünmesini sağlar */
-  
+    width: 50%;
 }
 table th {
-    color: #3043e9 !important;
-    background-color: #F96E2A !important;
-    font-size: 35px;
+    /* color: #3b3b3b !important;
+    background-color: transparent !important;
+    font-size: 20px; */
 }
 table td {
     background-color: #6e6d6d !important;
     color: #fff !important;
 }
+
+.table-striped {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-striped th,
+  .table-striped td {
+    border: 1px solid transparent !important; /* Satır çizgilerini mavi yap */
+    padding: 8px !important;
+    text-align: left !important;
+  }
+  
+  .table-striped th {
+    background-color: #e95830 !important; 
+    color: #3a3939 !important;
+  }
+  
+  .table-striped tbody tr:nth-child(odd) {
+    background-color: blue !important; /* Tek satırlar için arka plan rengi */
+  }
+  
+  .table-striped tbody tr:nth-child(even) {
+    background-color: red !important; /* Çift satırlar için arka plan rengi */
+  }
+  
+  .text-center {
+    text-align: center;
+  }

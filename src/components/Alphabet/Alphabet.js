@@ -9,7 +9,7 @@ const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
   
   return (
     <div className='alfabe-background'>
-        <h3 className='h3-style'>HARFLER</h3>
+        <h3 className='h3-style'>Kelime Defteri</h3>
         <hr style={{color:'white'}}></hr>
        <div className='alphabet-container'>
          {

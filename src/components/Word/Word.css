@@ -8,9 +8,9 @@
 }
 
 .word-text {
-  color: #3d3bf3;
+  color: #fff;
   font-size: 24px;
-  font-family: "Archivo Black", serif;
+  font-family: "Manrope", serif;
   background: transparent;
   border:none;
   padding: 5px;
@@ -25,9 +25,10 @@
 .word-text-button {
     background-color: #F96E2A;
     border-radius: 10px;
-    color: #3D3BF3;
-    font-family: "Archivo Black", serif;
-    font-size: 24px;
+    color: #d6d6d6;
+    font-family: "Manrope", serif;
+    font-weight: 500;
+    font-size: 20px;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -43,7 +44,7 @@
   font-size: 24px;
   padding: 5px;
   font-family: "Manrope", serif;
-  color: #3D3BF3;
+  color: #f96e2a;
   font-weight: bold;
 }
 
@@ -74,3 +75,7 @@ hr {
     border: 1px solid #fff;
 }
 
+.error{
+  color: red;
+  font-size: 20px;
+}
