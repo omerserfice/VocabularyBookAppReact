@@ -1,5 +1,8 @@
-.title-background{
+.alfabe-background{
    background-color: #3D3BF3;
+   min-height: 100vh;
+   width: auto;
+   padding: 0;
 }
 
 .h3-style{
@@ -7,8 +10,8 @@
     text-align: center;
     padding: 3%;
     font-family: "Archivo Black", serif;
-    font-size: 50px;
-    letter-spacing: -3px;
+    font-size: auto;
+    letter-spacing: 0px;
 
 }
 
@@ -17,6 +20,7 @@
     flex-direction: column; 
     overflow-y: auto;
     max-height: 800px;
+    min-height: 100vh;
     gap:10px;
     padding: 10px;
 }

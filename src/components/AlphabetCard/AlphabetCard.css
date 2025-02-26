@@ -3,9 +3,14 @@
     font-family: "Archivo Black", serif;
     cursor: pointer;
     border: 1px solid #3D3BF3;
-    transition: background-color 0.3s ease;
    
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
+.card-background.selected {
+    background-color: #F96E2A;
+    transform: scale(1.1); /* Slightly enlarge the selected card */
+  }
 
 .card-h1{
     color:#c3c3c3;

@@ -21,20 +21,41 @@ const WordList = ({ selectedLetter }) => {
 
   return (
     <div>
-      <h1 className="word-list-h1">Words related to the letter</h1>
-      <h2 className="word-list-h2">{selectedLetter}</h2>
-      <hr style={{ color: "white" }}></hr>
-      <ul className="list-group list-group-flush word-list-ul">
+      <h1 className="word-list-h1">Kelime Listesi - {selectedLetter}</h1>
+
+      <table className="table table-striped">
+        <thead>
+          <tr>
+            <th style={{width:'20%'}}>Kelime</th>
+            <th>Anlamı</th>
+          </tr>
+        </thead>
+        <tbody>
+          {filteredData.length > 0 ? (
+            filteredData.map((word) => (
+              <tr key={word.id}>
+                <td>{word.wordText}</td>
+                <td>{word.turkishMeaning}</td>
+              </tr>
+            ))
+          ) : (
+            <tr>
+              <td colSpan="2" className="text-center">
+                Kelime Bulunamadı!
+              </td>
+            </tr>
+          )}
+        </tbody>
+      </table>
+
+      {/* <ul className="list-group list-group-flush word-list-ul">
        
         {filteredData.length > 0 ? (
           filteredData.map((word) => <li className="list-group-item" key={word.id}>{word.wordText} - <small className="mean">{word.turkishMeaning}</small></li>)
         ) : (
-          <p className="list-info">Henüz {selectedLetter}  ile başlayan kelime girişi yapılmamış!</p>
+          <p className="list-info">Kelime Bulunamadı!</p>
         )}
-      </ul>
-    
-      
-    
+      </ul> */}
     </div>
   );
 };

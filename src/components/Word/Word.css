@@ -1,28 +1,76 @@
-.word-h1{
-    font-family: "Archivo Black", serif;
-    text-align: center;
-    color: #F96E2A;
-    padding: 10px;
-    letter-spacing: 17px;
+.word-h1 {
+  font-family: "Archivo Black", serif;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  text-shadow: 20px #fff;
+  
 }
 
-.word-text{
-    background-color: black;
-    color: #F96E2A;
-    font-size: 60px;
-    border: none; /* Çerçeveyi kaldırır */
-    outline: none; /* Odaklanınca oluşan kenarlığı kaldırır */
-    font-family: "Archivo Black", serif;
-    border-radius: 19px;
-    border-bottom: 2px solid white; /* Sadece alt çizgi ekler */
+.word-text {
+  color: #3d3bf3;
+  font-size: 24px;
+  font-family: "Archivo Black", serif;
   background: transparent;
+  border:none;
+  padding: 5px;
+  width: 100%; 
+  outline: none;
+  border-bottom: #3D3BF3 2px solid;
 }
-.word-text-button{
-    margin-left: 35px;
-    background-color: transparent;
-    color: green;
+
+.word-text:focus {
+  border-color: #fff;
+}
+.word-text-button {
+    background-color: #F96E2A;
+    border-radius: 10px;
+    color: #3D3BF3;
     font-family: "Archivo Black", serif;
-    font-size: 90px;
-    border: none; /* Çerçeveyi kaldırır */
-    outline: none; /* Odaklanınca oluşan kenarlığı kaldırır */
+    font-size: 24px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
 }
+
+.word-text-button:hover {
+    background-color: #FF7F50;
+    color: white;
+}
+
+.label-word {
+  font-size: 24px;
+  padding: 5px;
+  font-family: "Manrope", serif;
+  color: #3D3BF3;
+  font-weight: bold;
+}
+
+.word-form {
+     display: flex; 
+     flex-direction: column; 
+     align-items: flex-start; 
+     gap: 10px; 
+     width: 1000px; 
+    margin: 0 auto;
+}
+
+.form-group {
+ 
+    align-items: center;
+    width: 100%;
+  
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #fff;
+}
+

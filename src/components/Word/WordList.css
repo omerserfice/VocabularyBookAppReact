@@ -1,8 +1,8 @@
 .word-list-h1{
-    color:#fff;
+    color:#c3c3c3;
     text-align: center;
     font-family: "Archivo Black", serif;
-    font-size: 80px;
+    font-size: 50px;
     letter-spacing: 3px;
 }
 
@@ -20,9 +20,9 @@
 
 .list-group-item {
     background-color: transparent !important;
-    color: brown !important;
+    color: #e95830 !important;
     font-family: "Archivo Black", serif;
-    font-size: 72px;
+    font-size: 25px;
 }
 .mean{
     font-family: "Manrope", serif;
@@ -33,4 +33,24 @@
     font-family: "Manrope", serif;
     color: red;
     font-size: 50px;
+}
+
+table{
+    background-color: #e95830 !important;
+    font-size: 20px;
+    font-family: "Manrope", serif;
+    border-collapse: separate;
+    border-spacing: 0; /* Hücreler arasındaki boşluğu kaldırır */
+    border-radius: 10px; /* Köşeleri yuvarlatır */
+    overflow: hidden; /* Köşelerin düzgün görünmesini sağlar */
+  
+}
+table th {
+    color: #3043e9 !important;
+    background-color: #F96E2A !important;
+    font-size: 35px;
+}
+table td {
+    background-color: #6e6d6d !important;
+    color: #fff !important;
 }

@@ -8,8 +8,8 @@ const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
    
   
   return (
-    <div className='title-background'>
-        <h3 className='h3-style'>ALPHABET</h3>
+    <div className='alfabe-background'>
+        <h3 className='h3-style'>HARFLER</h3>
         <hr style={{color:'white'}}></hr>
        <div className='alphabet-container'>
          {

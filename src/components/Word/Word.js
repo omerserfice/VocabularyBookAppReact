@@ -1,19 +1,28 @@
-import React from 'react'
-import './Word.css'
+import React from "react";
+import "./Word.css";
 const Word = () => {
   return (
-    <div>
-        <h1 className='word-h1'>Word Entry</h1>
-        <form style={{textAlign:'center'}}>
-            <label>English Word</label>
-            <input className='word-text' type='text'></input>
-            <label>Turksih Word</label>
-            <input className='word-text' type='text'></input>
-            <button className='word-text-button'>Add</button>
-            <hr style={{color:'#fff'}}></hr>
-        </form>
+    <div className="word-container">
+      <h1 className="word-h1">İngilizce Kelime Defteri</h1>
+      <form className="word-form">
+       
+        <div className="form-group">
+          <label className="label-word">İngilizce Kelime(eng)</label>
+          <input className="word-text" type="text"></input>
+       
+        <div className="form-group">
+          <label className="label-word">Türkçe Anlamı(tr)</label>
+          <input className="word-text" type="text"></input>
+        </div>
+        </div>
+        
+        <button className="word-text-button">Ekle</button>
+       
+       
+      </form>
+      <hr style={{ color: "#fff" }}></hr>
     </div>
-  )
-}
+  );
+};
 
-export default Word
+export default Word;
